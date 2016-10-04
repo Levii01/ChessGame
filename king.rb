@@ -1,4 +1,3 @@
-require 'pry'
 class King
     attr_reader :x, :y
 
