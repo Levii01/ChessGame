@@ -1,4 +1,3 @@
-require_relative 'figure'
 # Vectors move bishop
 class Bishop < Figure
   private_class_method
