@@ -18,6 +18,9 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     slop (3.6.0)
+    rubocop (0.43.0)
+      deff-lcs (>= 2.0.0)
+      rspec-support (~> 0.43.0)
 
 PLATFORMS
   ruby
@@ -27,6 +30,7 @@ DEPENDENCIES
   rspec-core
   rspec-expectations
   rspec-mocks
+  rubocop
 
 RUBY VERSION
    ruby 2.3.1p112
