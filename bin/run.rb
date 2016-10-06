@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 Dir['../lib/figure/*.rb'].each { |file| require file }
 # print Knight.new('g2').possible_moves
 # print King.new('g2').possible_moves
