@@ -1,5 +1,5 @@
 # This class describes the exchange from input to output
-class Figure
+class Base
   attr_reader :x, :y
   def initialize(move)
     @x = letters.index(move[0])

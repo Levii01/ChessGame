@@ -1,0 +1,27 @@
+ChessGame/
+          bin/
+            run.rb
+          lib/
+             figure.rb
+             figure/
+                    base.rb (<- figure.rb)
+                    queen.rb
+                    ...
+          spec/
+               spec_helper.rb
+               lib/
+                   figure_spec.rb
+                   figure/
+                          base.rb
+
+
+
+
+
+figure.rb:
+
+require_relative 'figure/base'
+...
+
+module Figure
+end
