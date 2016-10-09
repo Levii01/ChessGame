@@ -1,3 +1,4 @@
+require_relative 'base'
 module Figure
   # Vectors move King
   class King < Base

@@ -1,3 +1,7 @@
+require_relative 'base'
+require_relative 'rook'
+require_relative 'bishop'
+
 module Figure
   # Vectors move Queen
   class Queen < Base

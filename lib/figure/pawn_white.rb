@@ -3,11 +3,11 @@ module Figure
   class PawnWhite < Base
     private_class_method
     def vectors
-      pawn_position
+      pawn_position(y)
     end
 
-    def pawn_position
-      if y == 2
+    def pawn_position(pos_y_wh)
+      if pos_y_wh == 2
         [[0, 2], [0, 1]]
       else
         [[0, 1]]

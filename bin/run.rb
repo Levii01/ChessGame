@@ -2,10 +2,10 @@
 
 require_relative '../lib/figure'
 
-# print Knight.new('g2').possible_moves
-# print King.new('g2').possible_moves
-# print Rook.new('g2').vectors
-# print Bishop.new('g2').possible_moves
-# print PawnWhite.new('g2').possible_moves
-# print PawnBlack.new('g7').possible_moves
-print Figure::Queen.new('g2').possible_moves
+# print Figure::Knight.new('h6').possible_moves
+# print Figure::King.new('d5').possible_moves
+# print Figure::Rook.new('e4').possible_moves
+# print Figure::Bishop.new('f7').possible_moves
+# print Figure::PawnWhite.new('g2').possible_moves
+#print Figure::PawnBlack.new('g7').possible_moves
+# print Figure::Queen.new('a8').possible_moves
