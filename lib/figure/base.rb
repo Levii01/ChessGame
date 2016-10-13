@@ -11,7 +11,8 @@ module Figure
       moves.map { |out_x, out_y| "#{letters[out_x]}#{out_y}" }
     end
 
-    private_class_method
+    # private
+
     def all_moves
       vectors.map { |wx, wy| [wx + x, wy + y] }
     end

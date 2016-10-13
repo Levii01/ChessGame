@@ -1,17 +1,21 @@
 module Figure
-  # Vectors move Pawn
   class PawnWhite < Base
-    private_class_method
     def vectors
-      pawn_position(y)
+      pawn_position.sort
     end
 
-    def pawn_position(pos_y_wh)
-      if pos_y_wh == 2
+    def self.vectors
         [[0, 2], [0, 1]]
+    end
+
+    def pawn_position
+      if y == 2
+        self.class.vectors
       else
-        [[0, 1]]
+        [self.class.vectors[-1]]
       end
     end
   end
 end
+
+#
