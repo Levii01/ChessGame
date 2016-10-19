@@ -5,7 +5,7 @@ module Figure
     end
 
     def self.vectors
-        [[0, 2], [0, 1]]
+      [[0, 2], [0, 1]]
     end
 
     def pawn_moves
