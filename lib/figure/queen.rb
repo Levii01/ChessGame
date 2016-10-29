@@ -6,5 +6,9 @@ module Figure
     def self.vectors
       Rook.vectors + Bishop.vectors
     end
+
+    def symbol
+      'Q'
+    end
   end
 end

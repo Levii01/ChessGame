@@ -1,9 +1,7 @@
+require_relative 'pawn'
 module Figure
   # Vectors move Pawn
-  class PawnBlack < Base
-    def vectors
-      pawn_moves.sort
-    end
+  class PawnBlack < Pawn
 
     def self.vectors
       [[0, -2], [0, -1]]
@@ -16,5 +14,6 @@ module Figure
         [self.class.vectors[-1]]
       end
     end
+
   end
 end

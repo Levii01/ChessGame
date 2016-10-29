@@ -6,5 +6,9 @@ module Figure
         [[i, 0], [0, i]]
       end
     end
+
+    def symbol
+      'R'
+    end
   end
 end

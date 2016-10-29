@@ -6,5 +6,9 @@ module Figure
         [[i, i], [i, -i]]
       end
     end
+
+    def symbol
+      'B'
+    end
   end
 end

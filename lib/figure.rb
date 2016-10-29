@@ -6,6 +6,7 @@ require_relative 'figure/pawn_black'
 require_relative 'figure/pawn_white'
 require_relative 'figure/queen'
 require_relative 'figure/rook'
+require_relative 'figure/empty'
 
 module Figure
 end
